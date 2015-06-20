@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  	
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+		<script src="jquery.js"></script>
+		<script src="js/typed.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script>
+    $(function(){
+        $("#typed").typed({
+            strings: ["Hi, my name is Chirss", "Hi, my name is Chris!"],
+            typeSpeed: 70,
+            backDelay: 500,
+            loop: false,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<header>
+					<div class="five">
+						<h1 class="logo"><a href="index.html">Chris Lam</a></h1>
+						<h2 class="title">Designer & Developer</h2>
+					</div>
+					<div class="seven">
+						<nav>
+							<ul>
+								<li><a href="index.html">About</li>
+								<li><a href="work.html">Work</a></li>
+								<li><a href="hire.html">Hire Me</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+			</div>
+				<section class="hero">
+					<section class="tagline">
+					
+						        <div class="type-wrap">
+						            <span id="typed"></span>
+						        </div>
+						        <ul>
+							       <li>I design, develop, and organize
+							       <span style="color:#D35400">beautiful</span> website content.</li>
+							       <li>I also edit and write content that is <span style="color:#D35400">simple</span> and <span style="color:#D35400">easy</span> to comprehend.</li>
+
+							       <li>Let's work <span style="color:#D35400">together</span>.</li>
+							      </ul>
+							      <ul class="buttons">
+
+							       <li><a class="reverse-button" href="about.html">Learn More</a></li>
+							       <li><a class="reverse-button" href="hire.html">Hire Me</a></li>
+
+
+							    </ul>
+
+					</section>
+					
+				</section>
+			<div class="row">
+				<div class="rationale">
+					<h1>What's so special about me?</h1>
+						<p>A beautiful design can only take you so far. With my background in technical communication, I bring a unique artistic and analytical approach to web design in all of my work.</p>
+						<p>More importantly, I love helping people. I love explaining the process of web design to my clients.</p>
+						<br />
+						<a class="button" href="work.html">See my work</a>
+				</div>
+			</div>
+			<div class="row">
+				<footer>
+					<div class="three">
+						<h1>Site Pages</h1>
+						<ul>
+							<li>Home</li>
+							<li>About</li>
+							<li>Work</li>
+							<li>Hire Me</li>
+
+						</ul>
+					</div>
+					<div class="three">
+						<h1>Social Media</h1>
+						<ul>
+							<li>Facebook</li>
+							<li>Twitter</li>
+							<li>LinkedIn</li>
+							<li>YouTube</li>
+
+						</ul>
+
+					</div>
+					<div class="three">
+						<h1>Contact</h1>
+						<ul>
+							<li>1205 Amherst Dr.</li>
+							<li>Denton, TX 76201</li>
+							<li>312-404-2430</li>
+							<li>chris.lam.unt@gmail.com</li>
+							
+		
+						</ul>
+					</div>
+					<div class="three">
+						<h1>Mission & Vision</h1>
+						<ul>
+							<li>My mission and vision for this company are intensely people focused. I strive to provide the best solution for all clients by clearly and simply communicating the objectives, process, and sustainability of their website solution.</li>
+
+						</ul>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
