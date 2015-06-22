@@ -42,6 +42,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html, body {
+	height: 100%;
+}
 .container {
 	width: 100%; /*Set the width of the entire website here */
 	
@@ -321,7 +324,7 @@ footer li {
 	margin-top: 80px;
 }
 .work-content-top {
-	min-height: 400px;
+	min-height: 500px;
 	margin-top: 80px;
 	padding: 40px 7.5% 40px 7.5%;
 	width: 85%;
@@ -329,8 +332,9 @@ footer li {
 	margin-right: auto;
 	background-color: #EEEEEE;
 }
+
 .work-content {
-	min-height: 400px;
+	height: 500px;
 	padding: 40px 7.5% 0 7.5%;
 	width: 85%;
 	margin-left: auto;
