@@ -326,8 +326,8 @@ footer li {
 .work-content-top {
 	min-height: 500px;
 	margin-top: 80px;
-	padding: 40px 7.5% 40px 7.5%;
-	width: 85%;
+	padding: 40px 2.5% 100px 2.5%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #EEEEEE;
@@ -335,8 +335,8 @@ footer li {
 
 .work-content {
 	height: 500px;
-	padding: 40px 7.5% 0 7.5%;
-	width: 85%;
+	padding: 40px 2.5% 100px 2.5%;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #EEEEEE;
@@ -374,6 +374,11 @@ img.landscape  {
 .database {
 	background-color: #BFBFBF;
 }
+
+
+/* RESPONSIVE DESIGN */
+
+
 .typed-cursor{
             opacity: 1;
             font-weight: 100;
@@ -420,5 +425,44 @@ img.landscape  {
 	border-bottom: 1px dotted gray;
 
 }
+@media only screen and (max-width : 1430px) {
+		.image {
+			width: 65%;
+		}
+		.image-description {
+			width: 30%;
+		}
+		
 
+}
+@media only screen and (max-width : 1230px) {
+		.image {
+			width: 65%;
+		}
+		.image-description {
+			width: 28%;
+		}
 
+@media only screen and (max-width : 1000px) {
+		.image {
+			width: 65%;
+		}
+
+		.image-description {
+			width: 28%;
+		}
+
+@media only screen and (max-width : 955px) {
+		.image {
+			width: 100%;
+		}
+
+		.image-description {
+			width: 100%;
+			padding-top: 20px;
+		}
+		.work-content-top {
+			height: 800px;
+		}
+
+}
