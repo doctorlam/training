@@ -42,9 +42,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-html, body {
-	height: 100%;
-}
+
 .container {
 	width: 100%; /*Set the width of the entire website here */
 	
@@ -346,6 +344,7 @@ footer li {
 		padding-bottom: 5px;
 
 }
+
 .work-content-top img, .work-content img {
 	width: 100%;
 	height: auto;
@@ -374,7 +373,9 @@ img.landscape  {
 .database {
 	background-color: #BFBFBF;
 }
-
+.database .image {
+	padding-top: 20px;
+}
 
 /* RESPONSIVE DESIGN */
 
@@ -451,18 +452,44 @@ img.landscape  {
 		.image-description {
 			width: 28%;
 		}
+		
 
 @media only screen and (max-width : 955px) {
 		.image {
-			width: 100%;
+			width: 95%;
+		}
+		.database .image-description {
+			padding-left: 2.5%;
 		}
 
 		.image-description {
-			width: 100%;
+			width: 95%;
 			padding-top: 20px;
 		}
 		.work-content-top {
 			height: 800px;
 		}
+		.work-content {
+			height: 500px;
+		}
+@media only screen and (max-width : 900px) {
+	.work-content-top {
+			height: 750px;
+		}
+@media only screen and (max-width : 768px) {
+	.work-content-top {
+			height: 700px;
+		}
+	.work-content {
+		height: 360px;
+	}
+@media only screen and (max-width : 600px) {
+	.work-content-top {
+			height: 650px;
+		}
+	.work-content {
+		height: 300px;
+	}
+
 
 }
