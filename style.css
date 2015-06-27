@@ -1,4 +1,4 @@
-/* Setting up our grid */
+e/* Setting up our grid */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,6 +26,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url('images/swirl_pattern.png');
+
 }
 ol, ul {
 	list-style: none;
@@ -44,9 +46,17 @@ table {
 }
 
 .container {
-	max-width: 100%; /*Set the width of the entire website here */
+	max-width: 2130px; /*Set the width of the entire website here */
 	background-color: #EEEEEE;
-
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.container-content {
+	max-width: 2130px; /*Set the width of the entire website here */
+	background-color: #EEEEEE;
+	margin-left: auto;
+	margin-right: auto;
 	
 }
 .five:first-child, .four:first-child, .three:first-child, .two:first-child, .one:first-child, .six:first-child, .seven:first-child, .eight:first-child, .nine:first-child, .ten:first-child, .eleven:first-child, .twelve:first-child { 
@@ -155,15 +165,25 @@ p, ul {
 	font-size: 16px;
 	line-height: 17px;
 }
+/* -----------------------HEADER CONTENT STYLES START HERE------------------*/
 
 header {
-	width: 100%;
-	height: 120px;
+
+	position:fixed;
+    top:0;
+    left:0px;
+    right:0;
+    height:120px;
+    background:#F9BF3B;
+    z-index:1000;
+    opacity: 0.95;
+	/*height: 120px;
+	min-width: 90%;
 	background: #F9BF3B;
 	top: 0;
 	position: fixed;
 	z-index: 100;
-	opacity: 0.95;
+	opacity: 0.95;*/
 }
 .branding {
 	float: left;
@@ -275,19 +295,43 @@ nav a, nav a:visited {
 	list-style-type: none;
 
 }
-
-.rationale {
-	min-height: 300px;
+.banner {
+	height:300px;
+	background-image: url('images/dark_embroidery.png');
+	background-repeat: repeat-x repeat-y;
+	z-index: -1;
+}
+.banner h1 {
+	padding-top: 180px;
+	font-family: 'Bevan', serif;
+	font-size: 50px;
 	text-align: center;
+	-webkit-mask-image: url("images/text-mask.png");
+	-moz-mask-image: url("images/text-mask.png");
+	mask-image: url("images/text-mask.png");
+	-o-mask-image: url("images/text-mask.png");
+	color: white;
+	text-transform: uppercase;
+	}
+
+/* -----------------------PAGE CONTENT STYLES START HERE------------------*/
+.rationale {
+
+	min-height: 400px;
 	padding-top: 40px;
-	width: 60%;
+	padding-bottom: 40px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 90%;
+	text-align: center;
+
 }
 .rationale h1 {
-	font-family: Roboto Slab;
+	font-family: Lato;
 	font-size: 28px;
-	margin-bottom: 30px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 60px;
 }
 .rationale p {
 	font-family: lato;
@@ -307,6 +351,7 @@ a.button {
 .buttons {
 	margin-top: 20px;
 	text-align: center;
+	bottom: 0;
 }
 .buttons li {
 	display: inline;
@@ -323,12 +368,14 @@ a.reverse-button {
 }
 
 footer {
+
 	min-height: 300px;
 	background-color: #101010;
 	margin-left: auto;
 	margin-right: auto;
 	width: 90%;
 	padding: 50px 3% 0 7%;
+
 }
 
 footer h1 {
@@ -356,23 +403,28 @@ footer a, footer a:visited {
 	min-height: 400px;
 	margin-top: 80px;
 }
+
+/* -------------PORTFOLIO PAGE STYLES START HERE --------------*/
 .work-content-top {
-	min-height: 500px;
+	min-height: 400px;
 	margin-top: 40px;
-	padding: 0px 7.5% 100px 7.5%;
-	width: 85%;
+	padding: 0px 5% 100px 5%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: #EEEEEE;
 }
 
 .work-content {
-	height: 500px;
-	padding: 40px 7.5% 100px 7.5%;
-	width: 85%;
+	min-height: 500px !important;
+	padding: 40px 5% 100px 5%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #EEEEEE;
+	object-fit: cover;
+
+	
+
 }
 .work-content h2, .work-content-top h2 {
 		padding-top: 20px;
@@ -381,30 +433,22 @@ footer a, footer a:visited {
 }
 
 .work-content-top img, .work-content img {
-	width: 100%;
 	height: auto;
+	max-width: 100%;
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
   box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
-img.mobile  {	
-	width: 100%;
-	height: 100%;
-	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
+
+
+.image {
+	padding-bottom: 100px;
 }
-
-img.landscape  {	
-	width: 100%;
-	height: auto;
-	-webkit-box-shadow: 3px 3px 5px 6px #B5B3B3;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 6px #B5B3B3;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 6px #B5B3B3;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-
+.image-description {
+	padding-bottom: 40px;
 }
-.portfolio {
+.row.portfolio  {
 	background-color: #D2D7D3;
 }
 .portfolio-image {
@@ -412,7 +456,7 @@ img.landscape  {
 	display: block;
 	float:right;
 	margin-left: 2%;
-
+	margin-bottom: 40px;
 }
 .portfolio-description {
 	width: 39.6%; /* This div spans five columns */
@@ -421,21 +465,8 @@ img.landscape  {
 	margin-left: 2%;
 
 }
-.banner {
-	height:300px;
-	background-image: url('images/dark_embroidery.png');
-	background-repeat: repeat-x repeat-y;
-	z-index: -1;
-}
-.banner h1 {
-	padding-top: 180px;
-	font-family: 'Bevan', serif;
-	font-size: 60px;
-	text-align: center;
-	-webkit-mask-image: url("images/text-mask.png");
-	text-transform: uppercase;
-	color: white;
-	}
+
+
 .work-content a:visited, .work-content a {
 	color: black;
 	text-decoration: none;
@@ -508,6 +539,9 @@ img.landscape  {
 		.image-description {
 			width: 28%;
 		}
+		.work-content-top {
+			height: 500px;
+		}
 
 @media only screen and (max-width : 1000px) {
 		.image {
@@ -518,22 +552,29 @@ img.landscape  {
 			width: 28%;
 		}
 		
+		
 
 @media only screen and (max-width : 955px) {
 		.image, .portfolio-image {
 			width: 100%;
+			padding-bottom: 0;
 
 		}
-		.image-description, .portfolio-description {
+		.portfolio-description {
+			width: 95%;
 			text-align: center;
 		}
+		
 
-		.image-description, .portfolio-description {
+		.image-description {
+			margin-top: 20px;
 			width: 95%;
-			padding-top: 20px;
+			text-align: center;
+
 		}
-		.work-content-top, .work-content {
-			height: 750px;
+		
+		.work-content {
+			height: 740px;
 		}
 		.landscape {
 			float: left;
@@ -542,7 +583,8 @@ img.landscape  {
 			float: right;
 		}
 @media only screen and (max-width : 900px) {
-	.work-content-top, .work-content {
+	
+		.work-content {
 			height: 700px;
 		}
 	footer .three {
@@ -560,15 +602,19 @@ img.landscape  {
 	}
 
 @media only screen and (max-width : 768px) {
-	.work-content-top, .work-content {
+	
+		.work-content {
 			height: 650px;
 		}
 	
 	}
 @media only screen and (max-width : 600px) {
-	.work-content-top, .work-content {
+	.work-content-top {
 			height: 600px;
 		}
+	.work-content {
+		height: 600px;
+	}
 	footer {
 		height: 600px;
 	}
