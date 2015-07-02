@@ -1,51 +1,82 @@
-<!DOCTYPE html>
-	<head>
+<!Doctype html>
+<html>
+<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  	
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Tienne' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/animation.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/trunk.css" />
 
+<!-- Scripts --> 
+<script type="text/javascript">
+	if (typeof jQuery == 'undefined')
+		document.write(unescape("%3Cscript src='js/jquery-1.9.js'" + 
+															"type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript" language="javascript" src="js/trunk.js"></script>
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<![endif]-->
 
 	</head>
-
 	<body>
+	
 		<div class="container">
 			<div class="row">
-				<header id ="header">
-				<div class="container-content">
-					<div class="branding">
-						<a href="index.html"><div class="circle"><h1>CL</h1>
+			<div class="container-content">
+
+			<header class="slide">
+				<ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+			<li></li><li></li><li></li>
+			
+		</ul>
+				<div class="branding">
+					<a href="index.html">
+					<div class="circle"><h1>CL</h1>
 					</div></a>
 					<div class="logo-container">
 						<h1 class="logo"><a href="index.html">Chris Lam</a></h1>
 						<h2 class="title">Designer & Developer</h2>
 					</div>
-					</div>
-						<nav>
+				</div>
+		</header>
+				
+				<nav class="slide">
 							<ul>
-								<li><a href="index.html">About</a></li>
-								<li><a href="work.html">Work</a></li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="work.html" class="active">Work</a></li>
 								<li><a href="hire.html">Hire Me</a></li>
 							</ul>
-						</nav>
-					</div>
-				</header>
+				</nav>
+				</div>
+						
 			</div>
-					<section class="banner">
+			
+			<div class="content slide">
+					<section class="banner slideDown">
 						<h1>My Portfolio.</h1>
 					</section>
-				<div class="row">
-					<div class="work-content-top">
-						<div class="seven image">
+				<div class="row work-content-top">
+				
+						<div class="eight image">
 							<img src="images/bold.jpg" />
 						</div>
-						<div class="five image-description">
+						<div class="four image-description">
+						<div class="portfolio-heading-left">
+
 							<h1>Bold Projects Database</h1>
 							<h2>http://bold.heroku.com</h2>
-							<h2>Client:<p>University of North Texas, Department of Technical Communication</p>
+						</div>
+							<h2>Client:</h2><p>University of North Texas, Department of Technical Communication</p>
 							<h2>Overview:</h2>
 							<p>The Department of Technical Communication runs semester-long client projects in which upper-level undergraduate courses partner with businesses on a substantial project. To manage these projects, the department needed a centralized repository where clients, instructors, and administrators could propose potential projects, and the projects could be matched to potential undergraduate courses.</p>
 							<h2>Project Skills:</h2>
@@ -58,16 +89,16 @@
 							</ul>
 						</div>
 				</div>
-		</div>
 		
-			<div class="row portfolio">
-			<div class="work-content">
-
+			<div class="row work-content">
 				<div class="portfolio-image">
 						<img class="landscape" src="images/portfolio.jpg" />
 				</div>
 				<div class="portfolio-description">
-					<h1>Professional Portfolio Website</h1>
+					<div class="portfolio-heading-left">				
+					
+						<h1>Professional Portfolio Website</h1>
+					</div>
 							<h2><a href="http://christopherylam.com">http://christopherylam.com</a></h2>
 							<h2>Client:<p>Personal Project</p>
 							<h2>Overview:</h2>
@@ -81,7 +112,6 @@
 							</ul>
 				</div>
 			</div>
-		</div>
 	
 			<div class="row">
 				<footer>
@@ -92,7 +122,7 @@
 							<li>Home</li>
 							<li>About</li>
 							<li>Work</li>
-							<li>Hire Me</li>
+							<li class="last">Hire Me</li>
 
 						</ul>
 					</div>
@@ -102,7 +132,7 @@
 							<li>Facebook</li>
 							<li>Twitter</li>
 							<li>LinkedIn</li>
-							<li>YouTube</li>
+							<li class="last">YouTube</li>
 
 						</ul>
 
@@ -113,17 +143,18 @@
 							<li>1205 Amherst Dr.</li>
 							<li>Denton, TX 76201</li>
 							<li>312-404-2430</li>
-							<li>chris.lam.unt@gmail.com</li>
+							<li class="last">chris.lam.unt@gmail.com</li>
 							
 		
 						</ul>
 					</div>
-					<div class="three">
+					<div class="three mission">
 						<h1>Mission & Vision</h1>
 						<ul>
 							<li>My mission and vision for this company are intensely people focused. I strive to provide the best solution for all clients by clearly and simply communicating the objectives, process, and sustainability of their website solution.</li>
 
 						</ul>
+					</div>
 					</div>
 					</div>
 				</footer>

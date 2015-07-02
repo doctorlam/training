@@ -24,9 +24,13 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+
+
 body {
 	line-height: 1;
-	background-image: url('images/swirl_pattern.png');
+	background: #6B6B6B;
+
 
 }
 ol, ul {
@@ -91,14 +95,14 @@ table {
 
 }
 .eight {
-	width: 64.7%;
+	width: 63.7%;
 	display: block;
 	float:left;
 	margin-left: 2%;
 
 }
 .seven {
-	width: 56.3%;
+	width: 56.44680851063829%;
 	display: block;
 	float:left;
 	margin-left: 2%;
@@ -112,21 +116,21 @@ table {
 	margin-left: 2%;
 }
 .five {
-	width: 39.6%; /* This div spans five columns */
+	width: 39.42553191489362%; /* This div spans five columns */
 	display: block;
 	float:left;
 	margin-left: 2%;
 }
 .five-offset {
-	width: 39.6%; /* This div spans five columns */
+	width: 30.6%; /* This div spans five columns */
 	display: block;
 	float:right;
 	margin-left: 2%;
-	display:table;
+	padding-right:2%;
 
 }
 .four {
-	width: 31.3%;
+	width: 31.91%;
 	display: block;
 	float:left;
 	margin-left: 2%;
@@ -151,14 +155,13 @@ table {
 	display: block;
 	float:left;
 	margin-left: 2%;
-*/
+
 }
 .row {
 	width: 100%;
 	clear: both; /* Clear creates new styles for the next row */
 	padding: 0px;
 	margin: 0px;
-	*zoom: 1;
 }
 .row:before,
 .row:after {
@@ -208,18 +211,21 @@ p, ul {
 	font-size: 16px;
 	line-height: 17px;
 }
+
 /* -----------------------HEADER CONTENT STYLES START HERE------------------*/
 
 header {
 
-	position:fixed;
     top:0;
     left:0px;
     right:0;
     height:120px;
-    background:#F9BF3B;
-    z-index:1000;
-    opacity: 0.95;
+    background-color:#F9BF3B;
+	z-index: 100;
+	max-width: 2130px;
+	margin-left: auto;
+	margin-right: auto;
+
 	/*height: 120px;
 	min-width: 90%;
 	background: #F9BF3B;
@@ -236,7 +242,7 @@ header {
 	float: left;
 	width: 100px;
 	height: 100px;
-	background-image:url('images/dark_embroidery.png');
+	background-image:url('images/dark_embroidery.jpg');
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -275,6 +281,7 @@ header {
 	margin-left: 14px;
 
 }
+/*
 nav {
 	float: right;
 	margin-right: 15px;
@@ -298,6 +305,7 @@ nav a, nav a:visited {
 	color: #6C7A89;
 
 }
+*/
 .hero {
 	background: url('images/hero.jpg') no-repeat center center;
 	-webkit-background-size: cover;
@@ -340,51 +348,97 @@ nav a, nav a:visited {
 }
 .banner {
 	height:300px;
-	background-image: url('images/dark_embroidery.png');
-	background-repeat: repeat-x repeat-y;
-	z-index: -1;
+	background-image: url('images/dark_embroidery.jpg');
+	background-repeat: repeat;
+	visibility: hidden;
 }
 .banner h1 {
 	padding-top: 180px;
 	font-family: 'Bevan', serif;
-	font-size: 50px;
+	font-size: 46px;
 	text-align: center;
 	-webkit-mask-image: url("images/text-mask.png");
 	-moz-mask-image: url("images/text-mask.png");
-	mask-image: url("images/text-mask.png");
+	mask-image: url('images/text-mask.png');
 	-o-mask-image: url("images/text-mask.png");
 	color: white;
 	text-transform: uppercase;
 	}
 
 /* -----------------------PAGE CONTENT STYLES START HERE------------------*/
-.homepage-content {
-	background-image:url('images/swirl_pattern_opaque.jpg');
-}
+.homepage {
+	background-image:url('images/swirl_pattern_opaque.jpg') !important;
+
+	}
 .rationale {
 	color: #4D4D4D;
-	min-height: 570px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
+	min-height: 750px;
+	padding: 0px 0px 40px 0px;
+	margin: 80px auto 50px auto;
+	width: 85%;
 	text-align: center;
 	position: relative;
+	margin-top: 80px;
+	background-color: #ffffff;
+
+}
+
+.rationale ul {
+	text-align: left;
+	font-size: 16px;
+	/*list-style-image: url('images/check-small.jpg');*/
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	list-style-type: square;
+	line-height: 20px;
+	padding: 0 20px 0 20px;
+
+
+}
+.rationale li {
+	margin-bottom: 20px;
+	margin-left: 40px;
 
 }
 .rationale h1 {
-	font-family: Lato;
-	font-size: 28px;
-	padding-bottom: 60px;
-	border-bottom: 1px solid gray;
-	margin-bottom: 60px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;	font-weight: 400;
+	font-size: 32px;
+	color: #60646D;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	width: 50%;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
 }
 .rationale p {
 	font-family: lato;
 	margin-bottom: 30px;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 24px;
+	text-align: left;
+	padding: 0 20px 0 20px;
+
+}
+.rationale-heading-left {
+	background-color: #81CFE0;
+}
+.rationale-heading-middle {
+	background-color: #F5D76E;
+}
+.rationale-heading-right {
+	background-color: #BE90D4;
+}
+.icon {
+	padding: 20px 0 20px 0;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.rationale .last {
+	padding-bottom: 40px;
 }
 a.button {
 	font-family: lato;
@@ -393,7 +447,7 @@ a.button {
 	border: 1px gray solid;
 	border-radius: 5px;
 	padding: 10px;
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .reverse-buttons  {
@@ -403,12 +457,11 @@ a.button {
 	display: inline-block;
 	text-align: center;
 	margin-right: -20px;
+
 }
 .buttons {
-	bottom: 0;
 	padding-bottom: 50px;
 	text-align: center;
-	position: absolute;
 	width: 100%;
 
 
@@ -438,13 +491,17 @@ footer {
 	width: 90%;
 	padding: 50px 3% 0 7%;
 
+
 }
 
 footer h1 {
 	color: #f9f9f9;
 	font-family: lato;
 	font-size: 20px;
-	padding-bottom: 60px;
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px dotted gray;
+	width: 70%;
 }
 footer ul {
 	list-style-type: none;
@@ -468,66 +525,78 @@ footer a, footer a:visited {
 
 /* -------------PORTFOLIO PAGE STYLES START HERE --------------*/
 .work-content-top {
-	min-height: 400px;
-	margin-top: 40px;
-	padding: 0px 5% 100px 5%;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #EEEEEE;
+	width: 100%;
+	padding: 80px 20px 20px 20px;
+	background: url('images/swirl_pattern_opaque.jpg');
+	background-repeat: repeat;
+	height: 100%;
+	background-position: center;
 }
 
 .work-content {
-	min-height: 500px !important;
-	padding: 40px 5% 100px 5%;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
-	object-fit: cover;
-
-	
-
+	width: 100%;
+	padding: 80px 0px 20px 0px;
+	background: url('images/swirl_pattern_opaque.jpg');
+	background-repeat: repeat;
+	height: 100%;
+	background-position: center;
 }
 .work-content h2, .work-content-top h2 {
 		padding-top: 20px;
 		padding-bottom: 5px;
-
 }
-
 .work-content-top img, .work-content img {
 	height: auto;
 	max-width: 100%;
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+ 	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  	border-radius: 1px;
 }
-
-
 
 .image {
 	padding-bottom: 100px;
+	margin-left: -2%;
 }
 .image-description {
+	background-color: #ffffff;
 	padding-bottom: 40px;
+	margin-right: 2%;
 }
-.row.portfolio  {
-	background-color: #D2D7D3;
+.image-description p, .image-description ul, .image-description h2 {
+	padding-left: 15px;
+	padding-right: 15px;
 }
+.image-description h1 {
+	font-family: 'Yanone Kaffeesatz', sans-serif;	font-weight: 400;
+	font-size: 40px;
+	text-transform: uppercase;
+}
+.portfolio-heading-left {
+	background-color: #F5D76E;
+	padding: 20px 15px 15px 15px;
+}
+
 .portfolio-image {
-	width: 56.3%;
+	width: 63.7%;
 	display: block;
 	float:right;
-	margin-left: 2%;
 	margin-bottom: 40px;
+	padding-right: 2%;
 }
 .portfolio-description {
-	width: 39.6%; /* This div spans five columns */
+	width: 31.91%; /* This div spans five columns */
 	display: block;
 	float:left;
-	margin-left: 2%;
+	background-color: #ffffff;
+	padding-bottom: 40px;
+	margin-left: 1%;
+}
+.portfolio-description p, .portfolio-description ul, .portfolio-description h2 {
+	padding-left: 15px;
+	padding-right: 15px;
 
 }
-
 
 .work-content a:visited, .work-content a {
 	color: black;
@@ -573,8 +642,8 @@ footer a, footer a:visited {
 
 .type-wrap {
 	color: white;
-	font-size: 27px;
-	font-family: Roboto Slab;
+	font-size: 35px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;	
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 5px;
@@ -585,9 +654,7 @@ footer a, footer a:visited {
 
 
 @media only screen and (max-width : 1430px) {
-		.rationale {
-			min-height: 650px;
-		}
+		
 		.image {
 			width: 65%;
 		}
@@ -603,9 +670,7 @@ footer a, footer a:visited {
 		}
 		.image-description {
 			width: 28%;
-		}
-		.work-content-top {
-			height: 500px;
+
 		}
 		.rationale {
 			min-height: 730px;
@@ -618,6 +683,7 @@ footer a, footer a:visited {
 
 		.image-description {
 			width: 28%;
+			padding-bottom: 20px;
 		}
 		.rationale {
 			min-height: 780px;
@@ -625,47 +691,63 @@ footer a, footer a:visited {
 		
 
 @media only screen and (max-width : 955px) {
-		.twelve, .eleven, .ten, .nine, .eight, .seven, .six, .five, .four, .three, .two, .one, .five-offset {
+		.twelve, .eleven, .ten, .nine, .eight, .seven, .six, .five, .five-offset, .four, .three, .two, .one {
 			width: 100%;
 			text-align: center;
 			margin: 0;
 			padding: 0;
 		}
+	
 		.rationale {
 			min-height: 100%;
 			padding-bottom: 0;
+			width: 95%;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+
 		}
 		.rationale h1 {
-			border-top: 1px solid gray;
 			padding-bottom: 25px;
 			padding-top: 25px;
 			margin-bottom: 20px;
+			border-bottom: none;
+		}
+		.rationale ul {
+			width: 85%;
+			margin-left: auto;
+			margin-right: auto;
 		}
 		.buttons {
-			position: relative;
-			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.icon {
+			padding-bottom: 0;
 		}
 
 		.image, .portfolio-image {
 			width: 100%;
 			padding-bottom: 0;
+			padding-right: 0;
 
 		}
 		.portfolio-description {
-			width: 95%;
 			text-align: center;
+			width: 100%;
+			padding-bottom: 20px;
+			margin-top: 40px;
+			margin-left: 0;
 		}
 		
-
 		.image-description {
-			margin-top: 20px;
-			width: 95%;
 			text-align: center;
+			padding-bottom: 20px;
+			margin-top: 40px;
 
 		}
-		
-		.work-content {
-			height: 740px;
+		.work-content-top {
+			padding: 20px 0px 0px 0px;
+
 		}
 		.landscape {
 			float: left;
@@ -674,42 +756,71 @@ footer a, footer a:visited {
 			float: right;
 		}
 		footer .three {
-		width: 70%;
-		text-align: center;
-		margin:0;
-		padding: 0 15% 0 15%;
+		width: 33%;
+		text-align: justify;
+
 	}
+		footer .mission {
+			width: 66.66%;
+			margin-top: 30px;
+			text-align: left;
+		}
 	 footer h1 {
-		margin:20px 0 20px 0;
-		padding:0;
+	 	font-size: 16px;
+	 	border-bottom: none;
+	 	margin-bottom: 0;
+	 	
+	}
+	footer p, footer li {
+		font-size: 14px;
+	}
+	footer .last {
+		padding-bottom: 30px;
 	}
 	footer {
-		height: 550px;
+		height: 400px;
 	}
 @media only screen and (max-width : 900px) {
 	
-		.work-content {
-			height: 700px;
-		}
 	
-
+}
 @media only screen and (max-width : 768px) {
-	
-		.work-content {
-			height: 650px;
-		}
-	
+		
 	}
 @media only screen and (max-width : 600px) {
-	.work-content-top {
-			height: 600px;
-		}
-	.work-content {
-		height: 600px;
-	}
+
 	footer {
-		height: 600px;
+		height: 600px ;
 	}
+	footer .three {
+		width: 100%;
+		margin: 0;
+	}
+	footer h1, footer ul {
+		text-align: center;
+	}
+	footer h1 {
+		width: 30%;
+		margin-right: auto;
+		margin-left: auto;
+		padding-bottom: 10px;
+		margin-bottom:5px;
+	}
+	footer .last {
+
+	}
+
+@media only screen and (max-width : 410px) {
+	.circle {
+		display:none;
+	}
+	.branding {
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 
 
 }
