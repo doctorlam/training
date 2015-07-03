@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />  	
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="responsive.css">
+
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
@@ -26,43 +28,43 @@
 <script src="js/html5shiv.js"></script>
 <![endif]-->
 
+
 	</head>
 	<body>
 	
-				<div class="container">
+		<div class="container">
 			<div class="row">
 			<div class="container-content">
 
-			<header class="slide">
-				<ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
-			<li></li><li></li><li></li>
-			
-		</ul>
-				<div class="branding">
+			<header>
+				
+			<div class="branding">
+					
+				<div class="logo-container">
 					<a href="index.html">
 					<div class="circle"><h1>CL</h1>
 					</div></a>
-					<div class="logo-container">
+					<div class="name-container">
 						<h1 class="logo"><a href="index.html">Chris Lam</a></h1>
 						<h2 class="title">Designer & Developer</h2>
 					</div>
 				</div>
-		</header>
-				
-				<nav class="slide">
+			</div>
+				<nav>
 							<ul>
-								<li><a href="index.html" class="active">Home</a></li>
+								<li class="active"><a href="index.html">Home</a></li>
 								<li><a href="work.html">Work</a></li>
 								<li><a href="hire.html">Hire Me</a></li>
 							</ul>
 				</nav>
-				</div>
+		</header>
+				
+				
+			</div><!--Container content -->
 						
-			</div>
+		</div><!--row 0-->
 			
-			
-			<div class="content slide">
-				<div class= "banner slideDown">
+			<div class= "banner slideDown">
 						<h1>Welcome.</h1>
 					</div>
 			<div class="row">
@@ -84,7 +86,7 @@
 							      </ul>
 							      <ul class="reverse-buttons">
 
-							       <li><a class="reverse-button smoothscroll" href="#rationale">Read More</a></li>
+							       <li><a href="#rationale" class="reverse-button smoothScroll">Read More</a></li>
 							       <li><a class="reverse-button" href="hire.html">Work With Me</a></li>
 
 
@@ -100,54 +102,55 @@
 
 
 			<div class="row homepage">
+		<div class="top-two">
 			<div class="four rationale-top">
-				<div class="rationale">
-					<div class="rationale-heading-left">
-						<img class="icon" src ="images/browser 2.png" />
-
-						<h1 class="column">Why choose me?</h1> 
-					</div>
-					<p>Because my primary focus is YOU. I use a user-centered design approach in my projects. Simply put, user experience and interaction drives design, and not the designer.</p>
-						<p>A beautiful design can only take you so far. With my background in technical communication, I bring a data-driven approach to web design in all of my work. That is, I want to learn about your customers and make great content available to them.</p>
-						<p class="last">Most importantly, I love helping people. Really, I do. I love explaining the process of web design and translating those "tech-y" details in a way that is useful for you.</p>
-						<div class="buttons">
-					<a class="button" href="work.html">See My Work</a>
-				</div>
-					
-				</div>
-				
-			</div>
-				
-			<div class="four">
-				<div class="rationale">
+		<div class="rationale">
 					<div class="rationale-heading-middle">
 						<img class="icon" src ="images/dev.png" />
 						<h1>Who am I?</h1>
 					</div>
-						<p>My name is Chris Lam, and I'm an academic by training. I have a Ph.D. in Technical Communication and a Master's degree in Information Design from the Illinois Institute of Technology.</p>
-						<p class="last">I have been teaching writing for the web, web design, and other digital writing courses going on a decade. While I love academic work, my true passion is making things.</p>
+						<p>My name is Chris Lam, and I'm an academic by training. My educational background is diverse, but it provides me with unique experiences that influence my work as a web designer.</p>
+						<P>I have a Ph.D. in Technical Communication and a Master's degree in Information Design from the Illinois Institute of Technology. My undergraduate degree is in history with a minor in secondary education.</p>
+						<p class="last">I have been teaching college level courses on writing and editing, web design and development, and other technical communication courses going on a decade. While I love academic work, I have a real passion for creating things.</p>
+						<p>
 						<div class="buttons">
 					<a class="button" href="hire.html">Contact Me</a>
 				</div>
 					
 				</div>
-				
 			</div>
+				
+			<div class="four rationale-middle">
+					<div class="rationale">
+					<div class="rationale-heading-left">
+						<img class="icon" src ="images/browser 2.png" />
+
+						<h1 class="column">Why choose me?</h1> 
+					</div>
+					<p>Why? Because my primary focus is YOU. I take a user-centered design approach in my projects. Simply put, the end user experience and interaction drives my designs and not the designer.</p>
+						<p>A beautiful design can only take you so far. With a background in technical communication, I bring a data-driven approach to web design in all of my work.</p>
+						<p class="last">Finally, and most importantly, I love helping people. Really, I do. I love explaining the process of web design and translating those "tech-y" details in a way that is useful for you.</p>
+						<div class="buttons">
+					<a class="button" href="work.html">See My Work</a>
+				</div>
+					
+				</div>	
+			</div>
+		</div>
 			<div class="four rationale-bottom">
 				<div class="rationale">					
 
 				<div class="rationale-heading-right">
 					<img class="icon" src ="images/toolbox.png" />
-					<h1>What about you?</h1>
+					<h1>What's in it for you?</h1>
 				</div>
-						<p>My goal and passion is to help you better communicate with your customers. To this end, I offer:</p>
+						<p>My goal and passion is to help you better reach your target audience. To this end, I offer:</p>
 						<ul>
 							<li>Beautiful, custom websites delivered on Wordpress (No generic themes here!)</li>
 							<li>Responsive design optimized for all devices including mobile, tablet, and desktop</li>
 							<li>Integration of social media into your website</li>
-							<li>Website redesigns based on your customer's needs</li>
 							<li>Content consulting and development using primary research</li>
-							<li class="last">Website management and maintenance</li> 
+							<li class="last">Incredible customer service, website management, and maintenance</li> 
 						</ul>
 						
 					<div class="buttons">
@@ -164,7 +167,6 @@
 						<h1>Site Pages</h1>
 						<ul>
 							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
 							<li><a href="work.html">Work</a></li>
 							<li class="last"><a href="hire.html">Hire Me</a></li>
 
@@ -173,10 +175,10 @@
 					<div class="three">
 						<h1>Social Media</h1>
 						<ul>
-							<li>Facebook</li>
-							<li>Twitter</li>
-							<li>LinkedIn</li>
-							<li class="last">YouTube</li>
+							<li><a href="http://facebook.com/doctorlam">Facebook</a></li>
+							<li><a href="http://twitter.com/doctor_lam">Twitter</a></li>
+							<li><a href="https://www.linkedin.com/pub/chris-lam/32/710/a54">LinkedIn</a></li>
+							<li class="last"><a href="http://www.youtube.com/c/ChrisLam1">YouTube</a></li>
 
 						</ul>
 
@@ -195,17 +197,17 @@
 					<div class="three mission">
 						<h1>Mission & Vision</h1>
 						<ul>
-							<li>My mission and vision for this company are intensely people focused. I strive to provide the best solution for all clients by clearly and simply communicating the objectives, process, and sustainability of their website solution.</li>
+							<li>My mission and vision are intensely people focused. I strive to provide the best solution for all clients by clearly communicating the objectives, process, and sustainability of their website solution. I will accomplish this by providing high quality work and world-class customer service.</li>
 
 						</ul>
 					</div>
 				</footer>
 
-			</div>
 		</div>
 		</div>
 		</div>
-
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/smoothscroll.js"></script>
 	</body>
 
 

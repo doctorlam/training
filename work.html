@@ -1,8 +1,10 @@
 <!Doctype html>
 <html>
 <head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />  	
 		<link rel="stylesheet" type="text/css" href="style.css">
+			<link rel="stylesheet" type="text/css" href="responsive.css">
+
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
@@ -34,57 +36,57 @@
 			<div class="row">
 			<div class="container-content">
 
-			<header class="slide">
-				<ul id="navToggle" class="burger slide">    <!--	Add "slideRight" class to items that move right when viewing Nav Drawer  -->
-			<li></li><li></li><li></li>
-			
-		</ul>
-				<div class="branding">
+			<header>
+				
+			<div class="branding">
+					
+				<div class="logo-container">
 					<a href="index.html">
 					<div class="circle"><h1>CL</h1>
 					</div></a>
-					<div class="logo-container">
+					<div class="name-container">
 						<h1 class="logo"><a href="index.html">Chris Lam</a></h1>
 						<h2 class="title">Designer & Developer</h2>
 					</div>
 				</div>
-		</header>
-				
-				<nav class="slide">
+			</div>
+				<nav>
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li><a href="work.html" class="active">Work</a></li>
+								<li class="active"><a href="work.html">Work</a></li>
 								<li><a href="hire.html">Hire Me</a></li>
 							</ul>
 				</nav>
-				</div>
+		</header>
+				
+			</div><!--Container content -->
 						
-			</div>
-			
-			<div class="content slide">
+		</div><!--row 0-->
 					<section class="banner slideDown">
 						<h1>My Portfolio.</h1>
 					</section>
+			<div class="all-portfolio-content">
 				<div class="row work-content-top">
 				
 	
 						<div class="five image-description">
-						<div class="portfolio-heading-left">
+						<div class="portfolio-heading-right">
 
-							<h1>Bold Projects Database</h1>
+							<h1>{Bold} Projects Database</h1>
 							
 						</div>
 						<h2>http://bold.heroku.com</h2>
 							<h2>Client:</h2><p>University of North Texas, Department of Technical Communication</p>
 							<h2>Overview:</h2>
-							<p>The Department of Technical Communication runs semester-long client projects in which upper-level undergraduate courses partner with businesses on a substantial project. To manage these projects, the department needed a centralized repository where clients, instructors, and administrators could propose potential projects, and the projects could be matched to potential undergraduate courses.</p>
+							<p>The Department of Technical Communication runs semester-long client projects in which upper-level undergraduate courses partner with businesses on a client project. To manage these projects, the department needed a centralized repository where clients, instructors, and administrators could propose potential projects and the projects could be matched to potential undergraduate courses.</p>
+							<p>In response to this need, I built a custom system using HTML/CSS and Ruby on Rails to meet the department's needs. The system has full user administration capabilities as well as a variety of user access levels. This was by far my most challenging project, but also very rewarding. Sign up for an account to see my work!</p>
 							<h2>Project Skills:</h2>
 							<ul>
+								<li>HTML/CSS</li>
 								<li>Backend development - Ruby on Rails</li>
-								<li>Frontend design and development</li>
 								<li>User Interface Design</li>
-								<li>Responsive design</li>
-								<li>Content writing</li>
+								<li>Responsive design using Twitter Bootstrap</li>
+								<li>Content strategy and writing</li>
 							</ul>
 						</div>
 						<div class="seven image">
@@ -102,42 +104,42 @@
 					</div>
 					<h2><a href="http://christopherylam.com">http://christopherylam.com</a></h2>
 							
-							<h2>Client:<p>Personal Project</p>
+							<h2>Client:</h2><p>Personal Project</p>
 							<h2>Overview:</h2>
-							<p>I created this website as a home for my academic work as a professor. The site features a three color theme that is repeated throughout the pages of the site. It's meant to stand out and be unique in a world of boring, academic profile websites.</p>
+							<p>I created this website as a home base for my academic work as a professor. The site features a three color theme that is repeated throughout the pages of the site. It's meant to stand out and be unique in a world of boring, academic profile websites.</p>
+							<p>The most vital page to the site is the CV. Therefore, I created the CV in a readable web format so users can access the content across a variety of devices.</p>
 							<h2>Project Skills:</h2>
 							<ul>
-								<li>Frontend design and development</li>
+								<li>HTML/CSS</li>
 								<li>User Interface Design</li>
 								<li>Responsive design</li>
-								<li>Content writing</li>
+								<li>Content strategy and writing</li>
 							</ul>
 				</div>
 				<div class="seven portfolio-image">
 						<img class="landscape" src="images/portfolio.jpg" />
 				</div>
 			</div>
+		</div><!--all portfolio content-->
 	
 			<div class="row">
 				<footer>
-				<div class="container-content">
 					<div class="three">
 						<h1>Site Pages</h1>
 						<ul>
-							<li>Home</li>
-							<li>About</li>
-							<li>Work</li>
-							<li class="last">Hire Me</li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="work.html">Work</a></li>
+							<li class="last"><a href="hire.html">Hire Me</a></li>
 
 						</ul>
 					</div>
 					<div class="three">
 						<h1>Social Media</h1>
 						<ul>
-							<li>Facebook</li>
-							<li>Twitter</li>
-							<li>LinkedIn</li>
-							<li class="last">YouTube</li>
+							<li><a href="http://facebook.com/doctorlam">Facebook</a></li>
+							<li><a href="http://twitter.com/doctor_lam">Twitter</a></li>
+							<li><a href="https://www.linkedin.com/pub/chris-lam/32/710/a54">LinkedIn</a></li>
+							<li class="last"><a href="http://www.youtube.com/c/ChrisLam1">YouTube</a></li>
 
 						</ul>
 
@@ -156,14 +158,13 @@
 					<div class="three mission">
 						<h1>Mission & Vision</h1>
 						<ul>
-							<li>My mission and vision for this company are intensely people focused. I strive to provide the best solution for all clients by clearly and simply communicating the objectives, process, and sustainability of their website solution.</li>
+							<li>My mission and vision are intensely people focused. I strive to provide the best solution for all clients by clearly communicating the objectives, process, and sustainability of their website solution. I will accomplish this by providing high quality work and world-class customer service.</li>
 
 						</ul>
-					</div>
-					</div>
 					</div>
 				</footer>
 			</div>
 		</div>
+	</div>
 	</body>
 </html>
