@@ -525,18 +525,18 @@ footer a, footer a:visited {
 
 /* -------------PORTFOLIO PAGE STYLES START HERE --------------*/
 .work-content-top {
-	width: 100%;
-	padding: 80px 20px 20px 20px;
-	background: url('images/swirl_pattern_opaque.jpg');
+	width: 90%;
+	padding: 80px 5% 20px 5%;
+	background: url('images/paisley.jpg');
 	background-repeat: repeat;
 	height: 100%;
 	background-position: center;
 }
 
 .work-content {
-	width: 100%;
-	padding: 80px 0px 20px 0px;
-	background: url('images/swirl_pattern_opaque.jpg');
+	width: 90%;
+	padding: 80px 5% 20px 5%;
+	background: url('images/squared_metal.jpg');
 	background-repeat: repeat;
 	height: 100%;
 	background-position: center;
@@ -545,7 +545,7 @@ footer a, footer a:visited {
 		padding-top: 20px;
 		padding-bottom: 5px;
 }
-.work-content-top img, .work-content img {
+.work-content-top img {
 	height: auto;
 	max-width: 100%;
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -553,21 +553,28 @@ footer a, footer a:visited {
  	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   	border-radius: 1px;
 }
-
+ .work-content img {
+ 	height: auto;
+	max-width: 100%;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+ 	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  	border-radius: 1px;
+  }
 .image {
-	padding-bottom: 100px;
-	margin-left: -2%;
+	padding-bottom: 80px;
+	float: left;
 }
 .image-description {
 	background-color: #ffffff;
 	padding-bottom: 40px;
-	margin-right: 2%;
+	float: right;
 }
 .image-description p, .image-description ul, .image-description h2 {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.image-description h1 {
+.image-description h1, .portfolio-description h1 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;	font-weight: 400;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -578,19 +585,11 @@ footer a, footer a:visited {
 }
 
 .portfolio-image {
-	width: 63.7%;
-	display: block;
-	float:right;
 	margin-bottom: 40px;
-	padding-right: 2%;
 }
 .portfolio-description {
-	width: 31.91%; /* This div spans five columns */
-	display: block;
-	float:left;
 	background-color: #ffffff;
 	padding-bottom: 40px;
-	margin-left: 1%;
 }
 .portfolio-description p, .portfolio-description ul, .portfolio-description h2 {
 	padding-left: 15px;
@@ -649,9 +648,7 @@ footer a, footer a:visited {
 	padding-bottom: 5px;
 	margin-bottom: 40px;
 	border-bottom: 1px dotted gray;
-
 }
-
 
 @media only screen and (max-width : 1430px) {
 		
@@ -728,33 +725,25 @@ footer a, footer a:visited {
 		.image, .portfolio-image {
 			width: 100%;
 			padding-bottom: 0;
-			padding-right: 0;
+			margin-top: 20px;
 
 		}
 		.portfolio-description {
 			text-align: center;
 			width: 100%;
 			padding-bottom: 20px;
-			margin-top: 40px;
+			margin-top: 0px;
 			margin-left: 0;
+			margin-top: -60px;
 		}
 		
 		.image-description {
 			text-align: center;
 			padding-bottom: 20px;
-			margin-top: 40px;
+			margin-top: -60px;
 
 		}
-		.work-content-top {
-			padding: 20px 0px 0px 0px;
-
-		}
-		.landscape {
-			float: left;
-		}
-		.image-description {
-			float: right;
-		}
+	
 		footer .three {
 		width: 33%;
 		text-align: justify;
