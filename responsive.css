@@ -27,6 +27,8 @@
 }
 
 @media only screen and (max-width : 955px) {
+
+
 		.twelve, .eleven, .ten, .nine, .eight, .seven, .six, .five, .five-offset, .four, .three, .two, .one {
 			width: 100%;
 			text-align: center;
@@ -117,6 +119,7 @@
 	footer {
 		height: 400px;
 	}
+}
 @media only screen and (max-width : 768px) {
 	nav {
 		width: 100%;
@@ -128,12 +131,12 @@
 	}
 
 	.branding {
-		width: 100%;
 		float: none;
 		margin-left: 0;
+		width:100%;
 	}
 	.logo-container {
-		width: 60%;
+		width: 50%;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -147,7 +150,6 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	
 
 	header {
 		height: 300px;
@@ -185,7 +187,7 @@
 	footer .last {
 
 	}
-
+}
 @media only screen and (max-width : 410px) {
 
 	.banner h1 {
@@ -204,6 +206,7 @@
 	nav {
 		margin-top: 10px;
 	}
+}
 @media only screen and (max-width : 380px) {
 
 	.banner h1 {
