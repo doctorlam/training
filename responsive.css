@@ -139,7 +139,27 @@
 			vertical-align: top;
 		}
 		
-	
+	a.reverse-button {
+text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	padding: 12px;
+	font-size: 16px;
+	font-family: 'lato', sans-serif;
+	background-color: #4F4F4F;
+	border: none;
+}
+a.reverse-button-2 {
+	text-decoration: none;
+	color: #4F4F4F;
+	border-radius: 5px;
+	padding: 12px;
+	font-size: 16px;
+	font-family: 'lato', sans-serif;
+		background-color: white;
+		border: none;
+
+}
 	.banner h1 {
 		font-size: 34px;
 	}
@@ -165,12 +185,53 @@
 	}
 	
 }
-@media only screen and (max-width : 410px) {
+@media only screen and (max-width : 415px) {
 
+	.banner {
+		height: 100px;
+	}
+	.banner h1 {
+		padding-top: 40px;
+	}
+	.hero {
+		height: auto;
+	}
+	
+	.tagline ul li {
+	font-size: 22px;
+	line-height: 24px;
+	padding-bottom: 15px;
+}
+	.type-wrap { 
+		font-size: 40px;
+	}
+	.tagline li {
+		display: block;
+		margin-bottom: 10px;
+	}
+	a.reverse-button {
+text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: 'lato', sans-serif;
+	background-color: #4F4F4F;
+	border: none;
+}
+a.reverse-button-2 {
+	text-decoration: none;
+	color: #4F4F4F;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 14px;
+	font-family: 'lato', sans-serif;
+		background-color: white;
+		border: none;
+}
 	.banner h1 {
 		font-size: 30px;
 	}
-	
 	.logo {
 		font-size: 30px;
 	}

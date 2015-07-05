@@ -328,9 +328,7 @@ nav a, nav a:visited {
 	display:table;
 }
 
-.opaque {
 
-}
 .tagline {
 	min-height: 400px;
 	margin-top: 60px;
@@ -343,7 +341,6 @@ nav a, nav a:visited {
 	font-size: 26px;
 	padding: 0 30px 30px 30px;
 	font-family: 'Bree Serif', serif;
-	
 	color: white;
 	line-height: 36px;
 	list-style-type: none;
