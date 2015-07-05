@@ -1,6 +1,5 @@
 @media only screen and (max-width : 1028px) {
-
-
+		
 		.image, .portfolio-image {
 			width: 100%;
 			padding-bottom: 0;
@@ -36,42 +35,7 @@
 			padding: 0;
 		}
 		
-		.rationale {
-			min-height: 100%;
-			padding-bottom: 0;
-			width: 95%;
-			text-align: center;
-			margin-left: auto;
-			margin-right: auto;
-			margin-top: 0;
-
-		}
-		.rationale-top, .rationale-middle {
-			width: 50%;
-			margin-top: 20px;
-
-		}
-		.rationale-top {
-			margin-top: 20px;
-		}
-		.rationale h1 {
-			padding-bottom: 25px;
-			padding-top: 25px;
-			margin-bottom: 20px;
-			border-bottom: none;
-		}
-		.rationale ul {
-			width: 85%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		.buttons {
-			padding-bottom: 50px;
-		}
-		.icon {
-			padding-bottom: 0;
-		}
-
+		
 		.image, .portfolio-image {
 			width: 100%;
 			padding-bottom: 0;
@@ -121,6 +85,17 @@
 	}
 }
 @media only screen and (max-width : 768px) {
+	.clever-box {
+		width: 100%;
+		margin: 0;
+		padding-bottom: 40px;
+	}
+	.clever-wrap {
+		margin-bottom: 0;
+	}
+	.button {
+		position: relative;
+	}
 	nav {
 		width: 100%;
 		margin-left: auto;
@@ -159,13 +134,17 @@
 }
 
 @media only screen and (max-width : 600px) {
+		.rationale-top, .rationale-middle, .rationale-bottom {
+			display: table-row;
+			vertical-align: top;
+		}
+		
+	
 	.banner h1 {
 		font-size: 34px;
 	}
 	
-	.rationale-top, .rationale-middle {
-			width: 100%;
-		}
+
 
 	footer {
 		height: 600px ;
@@ -184,9 +163,7 @@
 		padding-bottom: 10px;
 		margin-bottom:5px;
 	}
-	footer .last {
-
-	}
+	
 }
 @media only screen and (max-width : 410px) {
 
