@@ -259,6 +259,9 @@ header {
 	font-size: 36px;
 	-webkit-mask-image: url("images/text-mask.png");
 }
+.logo-container a {
+	text-decoration: none;
+}
 .logo-container {
 	margin-right: 40px;
 	margin-top: 10px;
@@ -384,8 +387,7 @@ nav a, nav a:visited {
 	border: 1px gray solid;
 	border-radius: 5px;
 	padding: 10px;
-	font-size: 16px;
-	padding-left: 1%;
+	font-size: 15px;
 }
 
 
@@ -729,13 +731,14 @@ input[type="text"] {
 	display: inline;
 	width: 100%;
   font-size: 14px;
-	background-color:#9EcDDF;
+	background-color:#81CFE0;
   font-family: 'Lato';
   color: white;
 	padding: 5px 0px 5px 10px;
-	margin: 5px 0px 5px 0px;
 	border-radius: 3px;
 	-moz-border-radius: 5px;
+	margin: 5px 0px 5px 0px;
+	border:none;
 
 }
 
@@ -753,16 +756,17 @@ input[type="submit"]{
 	display: inline;
 	width: 100%;
   font-size: 14px;
-	background-color:#999;
+	background-color:#777;
 	color: #fff;
 	padding: 5px 0px;
 	margin: 10px 0px 0px 0px;
 	border-radius: 3px;
 	-moz-border-radius: 5px;
+	
 }
 
 input[type="submit"]:hover {
-	background-color:#777;
+	background-color:#4F4F4F;
 }
 
 textarea {
@@ -772,7 +776,7 @@ textarea {
 	height: 100px;
   max-height: 300px;
   font-size: 14px;
-	background-color:#9EcDDF;
+	background-color:#81CFE0;
 	color:#fff;
   padding: 5px 0px 5px 10px;
 	margin: 5px 0px 0px 0px;

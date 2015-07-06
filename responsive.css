@@ -130,6 +130,9 @@
 		height: 300px;
 		padding-top: 20px;
 	}
+	.banner h1 {
+		font-size: 40px;
+	}
 
 }
 
@@ -138,9 +141,14 @@
 			display: table-row;
 			vertical-align: top;
 		}
-		
+		.banner {
+		height: 100px;
+	}
+	.banner h1 {
+		padding-top: 40px;
+	}
 	a.reverse-button {
-text-decoration: none;
+	text-decoration: none;
 	color: white;
 	border-radius: 5px;
 	padding: 12px;
@@ -161,11 +169,9 @@ a.reverse-button-2 {
 
 }
 	.banner h1 {
-		font-size: 34px;
+		font-size: 29px;
 	}
 	
-
-
 	footer {
 		height: 600px ;
 	}
@@ -186,12 +192,8 @@ a.reverse-button-2 {
 	
 }
 @media only screen and (max-width : 415px) {
-
-	.banner {
-		height: 100px;
-	}
 	.banner h1 {
-		padding-top: 40px;
+		font-size: 25px;
 	}
 	.hero {
 		height: auto;
@@ -210,11 +212,11 @@ a.reverse-button-2 {
 		margin-bottom: 10px;
 	}
 	a.reverse-button {
-text-decoration: none;
+	text-decoration: none;
 	color: white;
 	border-radius: 5px;
-	padding: 10px;
-	font-size: 14px;
+	padding: 12px;
+	font-size: 16px;
 	font-family: 'lato', sans-serif;
 	background-color: #4F4F4F;
 	border: none;
@@ -223,15 +225,13 @@ a.reverse-button-2 {
 	text-decoration: none;
 	color: #4F4F4F;
 	border-radius: 5px;
-	padding: 10px;
-	font-size: 14px;
+	padding: 12px;
+	font-size: 16px;
 	font-family: 'lato', sans-serif;
 		background-color: white;
 		border: none;
 }
-	.banner h1 {
-		font-size: 30px;
-	}
+
 	.logo {
 		font-size: 30px;
 	}
@@ -246,7 +246,14 @@ a.reverse-button-2 {
 	}
 }
 @media only screen and (max-width : 380px) {
-
+	.tagline li {
+		display: block;
+		margin-bottom: 15px;
+	}
+	a.reverse-button, a.reverse-button-2 {
+		font-size: 14px;
+		padding: 10px;
+	}
 	.banner h1 {
 		font-size: 23px;
 	}
