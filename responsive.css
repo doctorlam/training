@@ -1,5 +1,7 @@
 @media only screen and (max-width : 1028px) {
-		
+		.hero {
+			height: auto;
+		}
 		.image, .portfolio-image {
 			width: 100%;
 			padding-bottom: 0;
@@ -35,7 +37,6 @@
 			padding: 0;
 		}
 		
-		
 		.image, .portfolio-image {
 			width: 100%;
 			padding-bottom: 0;
@@ -57,7 +58,7 @@
 			margin-top: -60px;
 
 		}
-	
+
 		footer .three {
 		width: 33%;
 		text-align: justify;
@@ -83,8 +84,14 @@
 	footer {
 		height: 400px;
 	}
+	#contact-form {
+		max-width: 100%;
+	}
 }
 @media only screen and (max-width : 768px) {
+	.hero {
+		height: auto;
+	}
 	.clever-box {
 		width: 100%;
 		margin: 0;
@@ -95,6 +102,42 @@
 	}
 	.button {
 		position: relative;
+	}
+	.hire-content {
+			text-align: center;
+			margin-left: 0;
+			padding-right: 0px;
+
+		}
+		.hire-icon, h2.left-content {
+			float: none;
+			padding: 0;
+		}
+		h2.left-content {
+			margin-top: 5px;
+		}
+		#contact-form {
+			text-align: left;
+		}
+			p.left-content {
+			width: 100%;
+			margin-top: 20px;
+			clear:none;
+			margin-left: 0;
+			margin-bottom: 70px;
+		}
+		p.hire-last {
+			margin-bottom: 20px;
+		}
+	
+	.banner {
+		height: 100px;
+	}
+	.five-hire, .seven-hire {
+			width: 100%;
+			text-align: center;
+			margin: 0;
+			padding: 0;
 	}
 	nav {
 		width: 100%;
@@ -131,21 +174,23 @@
 		padding-top: 20px;
 	}
 	.banner h1 {
-		font-size: 40px;
+		font-size: 40px;		
+		padding-top: 40px;
 	}
 
 }
 
 @media only screen and (max-width : 600px) {
-		.rationale-top, .rationale-middle, .rationale-bottom {
-			display: table-row;
-			vertical-align: top;
-		}
-		.banner {
-		height: 100px;
-	}
+	
+
 	.banner h1 {
 		padding-top: 40px;
+	}
+	.type-wrap {
+		font-size: 36px;
+	}
+	.tagline ul li {
+		font-size: 24px;
 	}
 	a.reverse-button {
 	text-decoration: none;
@@ -195,9 +240,7 @@ a.reverse-button-2 {
 	.banner h1 {
 		font-size: 25px;
 	}
-	.hero {
-		height: auto;
-	}
+	
 	
 	.tagline ul li {
 	font-size: 22px;
@@ -231,7 +274,9 @@ a.reverse-button-2 {
 		background-color: white;
 		border: none;
 }
-
+	.button {
+		width: 100%;
+	}
 	.logo {
 		font-size: 30px;
 	}
@@ -246,6 +291,15 @@ a.reverse-button-2 {
 	}
 }
 @media only screen and (max-width : 380px) {
+	.header {
+		height: 330px;
+	}
+	.type-wrap {
+		font-size: 32px;
+	}
+	.tagline ul li {
+		font-size: 22px;
+	}
 	.tagline li {
 		display: block;
 		margin-bottom: 15px;

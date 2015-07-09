@@ -1,31 +1,28 @@
-<head>
+<!DOCTYPE html>
+	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />  	
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="stylesheet" type="text/css" href="responsive.css">
-
 		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Bevan' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/animation.css">
-<link rel="stylesheet" type="text/css" media="all" href="css/trunk.css" />
 
 <!-- Scripts --> 
-<script type="text/javascript">
-	if (typeof jQuery == 'undefined')
-		document.write(unescape("%3Cscript src='js/jquery-1.9.js'" + 
-															"type='text/javascript'%3E%3C/script%3E"))
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18260276-3', 'auto');
+  ga('send', 'pageview');
+
 </script>
-<script type="text/javascript" language="javascript" src="js/trunk.js"></script>
-<!--[if lt IE 9]>
-<script src="js/html5shiv.js"></script>
-<![endif]-->
+	<title>Contact Chris Lam - Freelance Web Designer and content specialist based out of Denton, TX</title> 
 
 	</head>
 	<body>
@@ -64,40 +61,71 @@
 					<section class="banner slideDown">
 						<h1>Let's Work Together.</h1>
 					</section>
-		<div class="hire-background">
+	<div class="hire-background">
+		<div class="row">
+			<div class="seven-hire">
+				<div class="hire-heading-left">
+
+					<h1>The Web Design Process</h1>
+				</div>
+				<div class="hire-content">
+					<img class="hire-icon" src ="images/questions-small.jpg" alt="questions icon" />
+					<h2 class="left-content">Ask Questions</h2>
+						<p class="left-content">The first phase of any web design project is asking the right questions. The hope is to learn more about you and your company's needs and audience. During this phase, we can discuss an overall theme and vision for the site.</p>
+				</div>
+
+				<div class="hire-content">
+
+				<img class="hire-icon" src ="images/mockup-small.jpg" alt="mockpus icon" />
+					<h2 class="left-content">Design Mock-ups</h2>
+						<p class="left-content">Next, I create a design mock-ups of each of the major pages of your site. You can view the site as I build it and provide feedback. We'll meet regularly for status updates until the design is finalized.</p>
+				</div>
+
+
+				<div class="hire-content">
+
+				<img class="hire-icon" src ="images/wordpress-small.jpg" alt="wordpress icon" />
+					<h2 class="left-content">Create Wordpress Site</h2>
+						<p class="left-content">I will then create a Wordpress version of the website and begin filling in the major content. During this phase, the only people that will be able to access the site is you and me. The public won't be able to view the site yet.</p>
+				</div>
+				<div class="hire-content">
+
+				<img class="hire-icon" src ="images/go-live-small.jpg" alt="go live icon" />
+					<h2 class="left-content">Go Live!</h2>
+						<p class="left-content hire-last">The final stage is deploying the site. After I receive the go ahead from you, I'll go live with the site. But, my services don't end there. I'll be available for 24/7 support and maintenance for as long as you use the site.</p>
+				
+				</div>
+		</div><!--seven-->
+
+			<div class="five-hire">
 				<form id="contact-form" method="POST" action="sendmail.php" name="ContactForm">
-    <h2 class="form-heading">
-    	Propose a Project!
-    </h2>
-    <p class="intro">
-      If you are interested in seeing if might work well together, please fill out the form and I'll get back to you within 24 hours.
-    </p> 
-
-      
-    	<p class="inputfield"><label for="subject">Type of Project</label></p> 
-    			<input type="text" id="type" name="type" placeholder="Is this a new website or a redesign?" style="color: #fff;" onfocus="if (this.value == '90') {this.value=''; this.style.color='#000';}" required tabindex="1" />
-
+		    	<h2 class="form-heading">
+		    	Propose a Project!</h2>
+		    <p class="intro">
+		      If you are interested in seeing if might work well together, please fill out the form and I'll get back to you within 24 hours.
+		    </p> 
     	<p class="inputfield"><label for="subject">Proposed deadline</label></p> 
-    			<input type="text" id="deadline" name="deadline" placeholder="When do you need the project completed?" style="color: #fff;" onfocus="if (this.value == '90') {this.value=''; this.style.color='#000';}" required tabindex="1" />
+    			<input type="text" id="deadline" name="deadline" style="color: #fff;" onfocus="if (this.value == '90') {this.value=''; this.style.color='#000';}" required tabindex="1" />
 
-    
     	<p class="inputfield"><label for="message">Describe the Project</label></p> 
     			<textarea name="message" id="message" tabindex="2"></textarea> 
     		
       <p class="inputfield"><label for="name">Name</label></p> 
-    			<input type="text" id="name" name="name" placeholder="First and last name" style="color: #fff;" onfocus="if (this.value == '90') {this.value=''; this.style.color='#000';}" required tabindex="3" /> 
+    			<input type="text" id="name" name="name" style="color: #fff;" onfocus="if (this.value == '90') {this.value=''; this.style.color='#000';}" required tabindex="3" /> 
     			 
     	<p class="inputfield"><label for="email">Email</label></p> 
-    			<input type="text" id="email" name="email" placeholder="yourname@domain.com" required tabindex="4" />
+    			<input type="text" id="email" name="email" required tabindex="4" />
     	   <p class="inputfield"><label>*What is 2+2? (Anti-spam)</label></p>
-    	   <input type="text" name="human" placeholder="Type Here">
+    	   <input type="text" name="human">
 
 
     			
     	<input name="submit" type="submit" id="submit" tabindex="5" value="Submit" />
 	 </form>
 				
-			</div>
+			</div><!--five-->
+		</div><!--hire background-->
+	</div><!--row-->
 	
 			<div class="row">
 				<footer>

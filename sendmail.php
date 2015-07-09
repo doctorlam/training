@@ -17,10 +17,10 @@
         echo '<p>Your message has been sent! I will get back to you in 24 hours! Go <a href="http://chrislamdesign.com">back.</a></p>';
 		
 	} else { 
-	    echo '<p>Something went wrong, go back and try again! Go <a href="http://christopherylam.com">back.</a></p>'; 
+	    echo '<p>Something went wrong, go back and try again! Go <a href="http://ChrisLamDesign.com/hire.html">back.</a></p>'; 
 	} 
     } else if ($_POST['submit'] && $human != '4') {
-	echo '<p>You answered the anti-spam question incorrectly! Go <a href="http://christopherylam.com">back.</a></p>';
+	echo '<p>You answered the anti-spam question incorrectly! Go <a href="http://chrislamdesign.com/hire.html">back.</a></p>';
     }
 
 

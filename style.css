@@ -101,13 +101,14 @@ table {
 	margin-left: 2%;
 
 }
-.seven {
+.seven, .seven-hire {
 	width: 56.44680851063829%;
 	display: block;
 	float:left;
-	margin-left: 2%;
+		margin-left: 2%;
 
-}
+
+	}
 
 .six {
 	width: 48%; /* This div spans six columns (the entire row)*/
@@ -121,6 +122,12 @@ table {
 	float:left;
 	margin-left: 2%;
 }
+.five-hire {
+	width: 39.42553191489362%; /* This div spans five columns */
+	display: block;
+	float:left;
+	margin-left: 2%;
+	}
 .five-offset {
 	width: 40.6%; /* This div spans five columns */
 	display: block;
@@ -327,7 +334,7 @@ nav a, nav a:visited {
 	-o-background-size: cover;
 	background-size: cover;
 	width: 100%;
-	height: 650px;
+	height: 600px;
 	display:table;
 }
 
@@ -378,6 +385,7 @@ nav a, nav a:visited {
 		width: 35%;
 		margin-left: auto;
 		margin-right: auto;
+
 }
 .button {
   	display: block;
@@ -388,6 +396,7 @@ nav a, nav a:visited {
 	border-radius: 5px;
 	padding: 10px;
 	font-size: 15px;
+
 }
 
 
@@ -520,6 +529,8 @@ text-decoration: none;
 	padding: 12px;
 	font-size: 20px;
 	font-family: 'lato', sans-serif;
+		background-color: black;
+		opacity: 0.3;
 }
 a.reverse-button-2 {
 	text-decoration: none;
@@ -567,10 +578,7 @@ footer a, footer a:visited {
 	text-decoration: none;
 }
 
-.hire-content {
-	min-height: 400px;
-	margin-top: 80px;
-}
+
 
 /* -------------PORTFOLIO PAGE STYLES START HERE --------------*/
 .all-portfolio-content {
@@ -628,7 +636,7 @@ footer a, footer a:visited {
 	padding-left: 15px;
 	padding-right: 15px;
 }
-.image-description h1, .portfolio-description h1 {
+.image-description h1, .portfolio-description h1, .hire-background h1 {
 	font-family: 'Yanone Kaffeesatz', sans-serif;	font-weight: 400;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -710,19 +718,48 @@ footer a, footer a:visited {
 	mask-image: url('images/text-mask.png');
 	-o-mask-image: url("images/text-mask.png");
 }
+.hire-content {
+	margin-left: 20px;
+	padding-right: 30px;
+}
+.hire-heading-left {
+	border-bottom: 2px solid #BE90D4;
+	padding: 30px 15px 40px 15px;
+	text-align: center;
+	margin: 0px auto 40px auto;
+	width:75%;
+}
+.hire-background {
+	width: 95%;
+	padding: 0px 2.5% 0 2.5%;
+}
+.hire-icon  {
+	float: left;
+}
+h2.left-content {
+	float: left;
+	font-size: 26px;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+p.left-content {
+	clear: both;
+	margin-bottom: 60px;
+	width: 85%;
+	margin-left: 85px;
+	padding-right: 10px;
+}
 
 #contact-form {
 	max-width: 500px;
-  background-color: #ffffff;
+  	background-color: #ffffff;
 	margin: 40px auto 40px auto;
-  padding: 0px 40px 35px 40px;
-  border-radius: 0 0 3px 3px;
+  	padding: 0px 40px 35px 40px;
+  	border-radius: 0 0 3px 3px;
 	-moz-border-radius: 0 0 5px 5px;
-	
 	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
  	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-
   	border-radius: 5px;
 
 }
@@ -730,10 +767,10 @@ footer a, footer a:visited {
 input[type="text"] {
 	display: inline;
 	width: 100%;
-  font-size: 14px;
+  	font-size: 14px;
 	background-color:#81CFE0;
-  font-family: 'Lato';
-  color: white;
+  	font-family: 'Lato';
+  	color: white;
 	padding: 5px 0px 5px 10px;
 	border-radius: 3px;
 	-moz-border-radius: 5px;
@@ -782,6 +819,7 @@ textarea {
 	margin: 5px 0px 0px 0px;
 	border-radius: 3px;
 	-moz-border-radius: 5px;
+	border: none;
 }
 
 .form-heading {
@@ -795,8 +833,8 @@ p.intro {
 	padding-bottom: 20px;
 }
 .hire-background {
-	background-image:url('images/paisley.jpg');
-	background-repeat: repeat;
-	padding: 20px 40px 35px 40px;
+
+	background-image:url('images/swirl_pattern_opaque.jpg') !important;
+	background-attachment: fixed;
 
 }
