@@ -92,16 +92,49 @@
 	.hero {
 		height: auto;
 	}
-	.clever-box {
+	.type-wrap {
+		font-size: 34px;
+	}
+	.tagline ul li {
+		font-size: 22px;
+	}
+	a.reverse-button, a.reverse-button-2  {
+		font-size: 15px;
+	}
+	.left.clever-box {
 		width: 100%;
 		margin: 0;
-		padding-bottom: 40px;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
 	}
-	.clever-wrap {
-		margin-bottom: 0;
+	.clever-box {
+		width: 48%;
+		margin:0;
 	}
+	.middle {
+		margin-right: 4%;
+	}
+	
 	.button {
 		position: relative;
+	}
+	.rationale h1 {
+		padding-top: 5px;
+		padding-bottom: 10px;
+		font-size: 29px;
+	}
+	.icon {
+		height: 100px;
+		width: 100px;
+		padding-bottom: 0px;
+		padding-top: 10px;
+	}
+	.homepage {
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+	.image-description h1, .portfolio-description h1, .hire-background h1 {
+		font-size: 34px;
 	}
 	.hire-content {
 			text-align: center;
@@ -143,6 +176,9 @@
 		width: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		background-color: #F5D76E;
+		background-image: url('images/stardust.png');
+
 	}
 	nav ul {
 		text-align: center;
@@ -160,6 +196,7 @@
 	}
 	.circle, .name-container {
 		float: none;
+		margin-top: 0;
 	}
 	.name-container {
 		text-align: center;
@@ -170,7 +207,7 @@
 	}
 
 	header {
-		height: 300px;
+		height: 200px;
 		padding-top: 20px;
 	}
 	.banner h1 {
@@ -196,8 +233,8 @@
 	text-decoration: none;
 	color: white;
 	border-radius: 5px;
-	padding: 12px;
-	font-size: 16px;
+	padding: 10px;
+	font-size: 14px;
 	font-family: 'lato', sans-serif;
 	background-color: #4F4F4F;
 	border: none;
@@ -206,19 +243,31 @@ a.reverse-button-2 {
 	text-decoration: none;
 	color: #4F4F4F;
 	border-radius: 5px;
-	padding: 12px;
-	font-size: 16px;
+	padding: 10px;
+	font-size: 14px;
 	font-family: 'lato', sans-serif;
-		background-color: white;
-		border: none;
+	background-color: white;
+	border: none;
 
 }
 	.banner h1 {
 		font-size: 29px;
 	}
+
+	.left.clever-box, .clever-box {
+		width: 100%;
+		margin: 0;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+	.clever-wrap {
+		margin-bottom: 0;
+	}
+
 	
 	footer {
-		height: 600px ;
+		height: 600px;
+		padding: 50px 5% 0 5%;
 	}
 	footer .three {
 		width: 100%;
@@ -236,46 +285,36 @@ a.reverse-button-2 {
 	}
 	
 }
-@media only screen and (max-width : 415px) {
+@media only screen and (max-width : 415px) { /*iphone 6 plus */
 	.banner h1 {
 		font-size: 25px;
 	}
 	
-	
+	.image-description h1, .portfolio-description h1, .hire-background h1 {
+		font-size: 30px;
+	}
+	h2.left-content {
+		font-size: 22px;
+	}
 	.tagline ul li {
 	font-size: 22px;
 	line-height: 24px;
 	padding-bottom: 15px;
 }
 	.type-wrap { 
-		font-size: 40px;
+		font-size: 28px;
 	}
 	.tagline li {
 		display: block;
 		margin-bottom: 10px;
 	}
-	a.reverse-button {
-	text-decoration: none;
-	color: white;
-	border-radius: 5px;
-	padding: 12px;
-	font-size: 16px;
-	font-family: 'lato', sans-serif;
-	background-color: #4F4F4F;
-	border: none;
-}
-a.reverse-button-2 {
-	text-decoration: none;
-	color: #4F4F4F;
-	border-radius: 5px;
-	padding: 12px;
-	font-size: 16px;
-	font-family: 'lato', sans-serif;
-		background-color: white;
-		border: none;
-}
+	
 	.button {
 		width: 100%;
+	}
+	a.reverse-button, a.reverse-button-2 {
+		font-size: 14px;
+		padding: 10px;
 	}
 	.logo {
 		font-size: 30px;
@@ -295,7 +334,7 @@ a.reverse-button-2 {
 		height: 330px;
 	}
 	.type-wrap {
-		font-size: 32px;
+		font-size: 26px;
 	}
 	.tagline ul li {
 		font-size: 22px;
@@ -304,10 +343,7 @@ a.reverse-button-2 {
 		display: block;
 		margin-bottom: 15px;
 	}
-	a.reverse-button, a.reverse-button-2 {
-		font-size: 14px;
-		padding: 10px;
-	}
+
 	.banner h1 {
 		font-size: 23px;
 	}

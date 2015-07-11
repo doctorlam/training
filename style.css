@@ -49,6 +49,7 @@ table {
 	border-spacing: 0;
 }
 
+
 .container {
 	max-width: 2130px; /*Set the width of the entire website here */
 	background-color: #EEEEEE;
@@ -228,8 +229,8 @@ header {
     left:0px;
     right:0;
     height:120px;
-    background-color:#F9BF3B;
-	z-index: 100;
+    background-color:#F5D76E;
+    background-image: url('images/stardust.png');
 	max-width: 2130px;
 	margin-left: auto;
 	margin-right: auto;
@@ -348,24 +349,24 @@ nav a, nav a:visited {
 	
 }
 .tagline ul li {
-	font-size: 26px;
-	padding: 0 30px 30px 30px;
+	font-size: 22px;
+	padding: 0 10px 30px 10px;
 	font-family: 'Bree Serif', serif;
 	color: white;
-	line-height: 36px;
+	line-height: 30px;
 	list-style-type: none;
 
 }
 .banner {
-	height:200px;
+	height:130px;
 	background-image: url('images/dark_embroidery.jpg');
 	background-repeat: repeat;
 	visibility: hidden;
 }
 .banner h1 {
-	padding-top: 90px;
+	padding-top: 40px;
 	font-family: 'Bevan', serif;
-	font-size: 46px;
+	font-size: 50px;
 	text-align: center;
 	-webkit-mask-image: url("images/text-mask.png");
 	-moz-mask-image: url("images/text-mask.png");
@@ -385,7 +386,6 @@ nav a, nav a:visited {
 		width: 35%;
 		margin-left: auto;
 		margin-right: auto;
-
 }
 .button {
   	display: block;
@@ -396,10 +396,7 @@ nav a, nav a:visited {
 	border-radius: 5px;
 	padding: 10px;
 	font-size: 15px;
-
 }
-
-
 .left {
 	margin-left: 2.5%;
 }
@@ -417,7 +414,7 @@ nav a, nav a:visited {
 .panel {
   overflow: hidden;
   position: relative;
-  width: 95%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 
@@ -490,13 +487,19 @@ nav a, nav a:visited {
 
 }
 .rationale-heading-left {
-	background-color: #81CFE0;
+	background-color: #F5D76E;
+	background-image: url('images/stardust.png');
+
 }
 .rationale-heading-middle {
-	background-color: #F5D76E;
+	background-color: #81CFE0;
+	background-image: url('images/stardust.png');
+
 }
 .rationale-heading-right {
 	background-color: #BE90D4;
+	background-image: url('images/stardust.png');
+
 }
 .icon {
 	padding: 20px 0 20px 0;
@@ -512,10 +515,9 @@ nav a, nav a:visited {
 	padding-top: 28px;
 }
 .reverse-buttons li {
-	display: inline-block;
+	display: inline;
 	text-align: center;
 }
-	
 
 .button li {
 	display: inline;
@@ -527,7 +529,7 @@ text-decoration: none;
 	border: 1px solid white;
 	border-radius: 5px;
 	padding: 12px;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'lato', sans-serif;
 		background-color: black;
 		opacity: 0.3;
@@ -538,7 +540,7 @@ a.reverse-button-2 {
 	border: 1px solid white;
 	border-radius: 5px;
 	padding: 12px;
-	font-size: 20px;
+	font-size: 18px;
 	font-family: 'lato', sans-serif;
 }
 
@@ -707,7 +709,7 @@ footer a, footer a:visited {
 
 .type-wrap {
 	color: white;
-	font-size: 48px;
+	font-size: 38px;
 	font-family: 'Bree Serif', serif;	
 	padding-top: 20px;
 	padding-bottom: 5px;
@@ -723,8 +725,8 @@ footer a, footer a:visited {
 	padding-right: 30px;
 }
 .hire-heading-left {
-	border-bottom: 2px solid #BE90D4;
-	padding: 30px 15px 40px 15px;
+	border-bottom: 2px solid #F5D76E;
+	padding: 30px 15px 20px 15px;
 	text-align: center;
 	margin: 0px auto 40px auto;
 	width:75%;
