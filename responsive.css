@@ -157,15 +157,41 @@
 			margin-top: 20px;
 			clear:none;
 			margin-left: 0;
-			margin-bottom: 70px;
+		
 		}
-		p.hire-last {
-			margin-bottom: 20px;
-		}
+	
 	
 	.banner {
 		height: 100px;
 	}
+	.hire-top-container, .hire-bottom-container {
+		width: 100%;
+	}
+	
+
+	.hire-bottom-container {
+		clear: both;
+
+	}
+	p.left-content {
+		text-align: center;
+	}
+	.hire-bottom-container p {
+		margin-bottom: 0;
+	}
+	.hire-left, .hire-right {
+		float: left;
+		width: 47%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.hire-right {
+		margin-left: 4%;
+	}
+	h2.left-content {
+		font-size: 22px;
+	}
+
 	.five-hire, .seven-hire {
 			width: 100%;
 			text-align: center;
@@ -327,6 +353,22 @@ a.reverse-button-2 {
 	}
 	nav {
 		margin-top: 10px;
+	}
+	.hire-left, .hire-right {
+		width: 100%;
+		text-align: center;
+	}
+	.hire-right {
+		margin-left: 0;
+	}
+	.hire-bottom-container p, .hire-top-container p {
+		margin-bottom: 40px;
+	}
+	.hire-bottom-container {
+		padding-top: 0;
+	}
+	p.left-content {
+		text-align: center;
 	}
 }
 @media only screen and (max-width : 380px) {
