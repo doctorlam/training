@@ -25,6 +25,9 @@
 			margin-top: -60px;
 			width: 100%;
 		}
+		.work-content-top img, .work-content img {
+		padding-top: 0;
+	}
 }
 
 @media only screen and (max-width : 955px) {
@@ -87,6 +90,7 @@
 	#contact-form {
 		max-width: 100%;
 	}
+	
 }
 @media only screen and (max-width : 768px) {
 	.hero {
@@ -255,27 +259,8 @@
 	.tagline ul li {
 		font-size: 24px;
 	}
-	a.reverse-button {
-	text-decoration: none;
-	color: white;
-	border-radius: 5px;
-	padding: 10px;
-	font-size: 14px;
-	font-family: 'lato', sans-serif;
-	background-color: #4F4F4F;
-	border: none;
-}
-a.reverse-button-2 {
-	text-decoration: none;
-	color: #4F4F4F;
-	border-radius: 5px;
-	padding: 10px;
-	font-size: 14px;
-	font-family: 'lato', sans-serif;
-	background-color: white;
-	border: none;
 
-}
+
 	.banner h1 {
 		font-size: 29px;
 	}

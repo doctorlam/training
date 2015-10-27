@@ -25,7 +25,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-
+ html {
+ 	-webkit-text-size-adjust: 100%;
+ }
 
 body {
 	line-height: 1;
@@ -219,6 +221,10 @@ p, ul {
 	font-size: 16px;
 	line-height: 17px;
 }
+p.quote {
+	font-style: italic;
+
+}
 
 /* -----------------------HEADER CONTENT STYLES START HERE------------------*/
 
@@ -328,7 +334,7 @@ nav a, nav a:visited {
 	border-bottom: 1px solid gray;
 }
 .hero {
-	background: url('images/hero2.jpg') no-repeat center center;
+	background: url('images/hero-no-blur.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -530,8 +536,7 @@ text-decoration: none;
 	padding: 12px;
 	font-size: 18px;
 	font-family: 'lato', sans-serif;
-		background-color: black;
-		opacity: 0.3;
+		
 }
 a.reverse-button-2 {
 	text-decoration: none;
@@ -610,21 +615,16 @@ footer a, footer a:visited {
 .work-content-top img {
 	height: auto;
 	max-width: 100%;
+	padding-top: 80px;
 	
-	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
- 	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-
-  	border-radius: 5px;
 }
  .work-content img {
  	height: auto;
 	max-width: 100%;
-	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  	-moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
- 	box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  	border-radius: 5px;
-  }
+		padding-top: 80px;
+
+	
+  	  }
 .image {
 	padding-bottom: 80px;
 	float: left;
@@ -740,6 +740,7 @@ footer a, footer a:visited {
 	}
 	.hire-bottom-container {
 		padding-top: 60px;
+		padding-bottom: 20px;
 	}
 
 	.hire-bottom-container {
@@ -758,6 +759,7 @@ h2.left-content {
 	font-size: 22px;
 	padding-top: 15px;
 }
+
 p.left-content {
 	margin-top: 20px;
 	text-align: left;
@@ -851,4 +853,12 @@ p.intro {
 	background-image:url('images/swirl_pattern_opaque.jpg') !important;
 	background-attachment: fixed;
 
+}
+figcaption {
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Oswald' sans-serif;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	color: #737373;
 }
