@@ -398,9 +398,10 @@ nav a, nav a:visited {
 	text-decoration: none;
 	color: black;
 	border: 1px gray solid;
-	border-radius: 5px;
+	border-radius: 2.5px;
 	padding: 10px;
 	font-size: 15px;
+	text-transform: uppercase;
 }
 /* Shutter Out Horizontal Reverse Button */
 .hvr-shutter-out-horizontal-reverse {
@@ -619,21 +620,14 @@ nav a, nav a:visited {
 a.reverse-button {
 text-decoration: none;
 	color: white;
-	border: 1px solid white;
-	border-radius: 5px;
-	padding: 12px;
-	font-size: 18px;
+	border: 1.5px solid white;
+	border-radius: 2.5px;
+	padding: 5px 20px 5px 20px;
+	font-size: 16px;
 	font-family: 'lato', sans-serif;
+		text-transform: uppercase;
+
 		
-}
-a.reverse-button-2 {
-	text-decoration: none;
-	color: white;
-	border: 1px solid white;
-	border-radius: 5px;
-	padding: 12px;
-	font-size: 18px;
-	font-family: 'lato', sans-serif;
 }
 
 
@@ -796,16 +790,17 @@ footer a, footer a:visited {
 
 .type-wrap {
 	color: white;
-	font-size: 38px;
+	font-size: 42px;
+	font-weight: 800;
 	font-family: 'Bree Serif', serif;	
 	padding-top: 20px;
 	padding-bottom: 5px;
 	margin-bottom: 40px;
 	margin-left: 30px;
-	-webkit-mask-image: url("images/text-mask.png");
+	/*-webkit-mask-image: url("images/text-mask.png");
 	-moz-mask-image: url("images/text-mask.png");
 	mask-image: url('images/text-mask.png');
-	-o-mask-image: url("images/text-mask.png");
+	-o-mask-image: url("images/text-mask.png");*/
 }
 .hire-content {
 	text-align: center;
