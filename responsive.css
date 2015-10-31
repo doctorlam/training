@@ -317,7 +317,7 @@
 		font-size: 22px;
 	}
 	.tagline ul li {
-	font-size: 22px;
+	font-size: 18px;
 	line-height: 24px;
 	padding-bottom: 15px;
 }
@@ -325,16 +325,13 @@
 		font-size: 28px;
 	}
 	.tagline li {
-		display: block;
 		margin-bottom: 10px;
 	}
 	
-	.button {
-		width: 100%;
-	}
-	a.reverse-button, a.reverse-button-2 {
+	a.reverse-button {
 		font-size: 14px;
 		padding: 10px;
+		line-height: 10px;
 	}
 	.logo {
 		font-size: 30px;
