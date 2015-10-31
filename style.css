@@ -356,7 +356,7 @@ nav a, nav a:visited {
 .tagline ul li {
 	font-size: 22px;
 	padding: 0 10px 30px 10px;
-	font-family: 'Bree Serif', serif;
+	font-family: 'lato', sans-serif;
 	color: white;
 	line-height: 30px;
 	list-style-type: none;
@@ -385,6 +385,7 @@ nav a, nav a:visited {
 .homepage {
 	background-image:url('images/swirl_pattern_opaque.jpg') !important;
 	background-attachment: fixed;
+	padding: 40px 0 0px 0;
 
 	}	
 .buttons {
@@ -394,7 +395,7 @@ nav a, nav a:visited {
 }
 .button {
   	display: block;
-  	font-family: lato;
+  	font-family: 'raleway' sans-serif;
 	text-decoration: none;
 	color: black;
 	border: 1px gray solid;
@@ -402,6 +403,7 @@ nav a, nav a:visited {
 	padding: 10px;
 	font-size: 15px;
 	text-transform: uppercase;
+	font-weight: 600;
 }
 /* Shutter Out Horizontal Reverse Button */
 .hvr-shutter-out-horizontal-reverse {
@@ -514,9 +516,7 @@ nav a, nav a:visited {
 
 }
 
-.homepage {
-	padding: 40px 0 40px 0;
-}
+
 .clever-wrap {
   overflow: hidden;
   margin-bottom: -500px;
@@ -618,19 +618,47 @@ nav a, nav a:visited {
 }
 
 a.reverse-button {
-text-decoration: none;
+	text-decoration: none;
 	color: white;
 	border: 1.5px solid white;
 	border-radius: 2.5px;
-	padding: 5px 20px 5px 20px;
+	padding: 6px 30px 6px 30px;
 	font-size: 16px;
-	font-family: 'lato', sans-serif;
-		text-transform: uppercase;
-
-		
+	font-family: 'raleway', sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
 }
 
+.bottom-panel {
+	background-color: #C0392B;
+	min-height: 450px;
+	margin-top: 20px;
+	text-align: center;
+	position: relative;
+	background-image: url('images/robots.png');
+	color: white;
 
+}
+.vertical-center  {
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+}
+.vertical-center h1 {
+	padding-bottom: 30px;
+	font-family: 'raleway' sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 900;
+}
+.vertical-center h2 {
+	padding-bottom: 40px;
+	font-size: 22px;
+}
+.vertical-center a {
+	line-height: 30px;
+}
 footer {
 
 	min-height: 350px;
@@ -638,7 +666,7 @@ footer {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 50px 3% 0 7%;
-
+	margin-top: 0;
 
 }
 
@@ -792,10 +820,10 @@ footer a, footer a:visited {
 	color: white;
 	font-size: 42px;
 	font-weight: 800;
-	font-family: 'Bree Serif', serif;	
-	padding-top: 20px;
+	font-family: 'bree serif', serif;	
+	padding-top: 50px;
 	padding-bottom: 5px;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 	margin-left: 30px;
 	/*-webkit-mask-image: url("images/text-mask.png");
 	-moz-mask-image: url("images/text-mask.png");
