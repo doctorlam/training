@@ -294,11 +294,14 @@
 		margin-bottom:5px;
 	}
 
-	.bottom-panel h1 {
+	.bottom-panel h1, .quote-panel h1 {
 		font-size: 30px;
 	}
-	.bottom-panel h2 {
-		font-size: 18px;
+	.bottom-panel h2, blockquote {
+		font-size: 20px;
+	}
+	blockquote:before, blockquote:after {
+		font-size: 75px;
 	}
 	
 }
@@ -316,11 +319,11 @@
 	}
 	.tagline ul li {
 	font-size: 18px;
-	line-height: 24px;
-	padding-bottom: 15px;
+	line-height: 20px;
+	padding-bottom: 8px;
 }
 	.type-wrap { 
-		font-size: 18px;
+		font-size: 28px;
 	}
 	.tagline li {
 		margin-bottom: 10px;

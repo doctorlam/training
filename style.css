@@ -397,7 +397,7 @@ nav a, nav a:visited {
   	display: block;
   	font-family: 'raleway' sans-serif;
 	text-decoration: none;
-	color: black;
+	color: #4D4D4D;
 	border: 1px gray solid;
 	border-radius: 2.5px;
 	padding: 10px;
@@ -443,7 +443,7 @@ nav a, nav a:visited {
   transition-timing-function: ease-out;
 }
 .hvr-shutter-out-horizontal-reverse:hover, .hvr-shutter-out-horizontal-reverse:focus, .hvr-shutter-out-horizontal-reverse:active {
-  color: black;
+  color: #4D4D4D;
 }
 .hvr-shutter-out-horizontal-reverse:hover:before, .hvr-shutter-out-horizontal-reverse:focus:before, .hvr-shutter-out-horizontal-reverse:active:before {
   -webkit-transform: scaleX(1);
@@ -474,7 +474,7 @@ nav a, nav a:visited {
   bottom: 0;
   left: 0;
   right: 0;
-  background: black;
+  background: #4D4D4D;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 50%;
@@ -629,14 +629,18 @@ a.reverse-button {
 	font-weight: 600;
 }
 
-.bottom-panel {
+.quote-panel {
+	background: url('images/bottom-panel.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	background-color: #C0392B;
-	min-height: 450px;
-	margin-top: 20px;
+	min-height: 550px;
 	text-align: center;
 	position: relative;
-	background-image: url('images/robots.png');
 	color: white;
+	margin-top: 10px;
 
 }
 .vertical-center  {
@@ -644,6 +648,7 @@ a.reverse-button {
   	top: 50%;
   	left: 50%;
   	transform: translate(-50%, -50%);
+  	width: 80%;
 }
 .vertical-center h1 {
 	padding-bottom: 30px;
@@ -651,13 +656,70 @@ a.reverse-button {
 	text-transform: uppercase;
 	font-size: 40px;
 	font-weight: 900;
+	color: white;
 }
 .vertical-center h2 {
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 	font-size: 22px;
 }
 .vertical-center a {
 	line-height: 30px;
+}
+.quote-panel h1 {
+	padding-bottom: 20px;
+	font-family: 'raleway' sans-serif;
+	text-transform: uppercase;
+	font-size: 45px;
+	font-weight: 900;
+	color: white;
+}
+.quote-panel .four {
+	margin-bottom: 30px;
+}
+blockquote {
+	font-family: 'oswald'; 
+	font-size: 24px;
+	font-style: italic;
+  	padding: 0.5em 10px;
+ 	quotes: "\201C""\201D""\2018""\2019";
+  	color: white;
+  	line-height: 2em;
+  	border-left: 10px solid white;
+
+}
+
+blockquote:before {
+	content: open-quote;
+	  font-size: 100px;
+	  line-height: 0.1em;
+	  margin-right: 0.25em;
+	  vertical-align: -0.4em;
+	  font-family: 'source sans pro';
+	  color: white;
+
+}
+
+blockquote:after {
+content: close-quote;
+	  font-size: 100px;
+	  line-height: 0.1em;
+	  margin-right: 0.25em;
+	  vertical-align: -0.4em;
+	  font-family: 'source sans pro';
+	  color: white;
+
+
+}
+
+
+.bottom-panel {
+	background-color: #C0392B;
+	background-image: url('images/robots.png');
+	min-height: 400px;
+	text-align: center;
+	position: relative;
+	color: white;
+
 }
 footer {
 
