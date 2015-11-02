@@ -251,18 +251,15 @@
 
 @media only screen and (max-width : 600px) {
 	
-
 	.banner h1 {
 		padding-top: 40px;
 	}
 	.type-wrap {
-		font-size: 36px;
+		font-size: 34px;
 	}
 	.tagline ul li {
-		font-size: 24px;
+		font-size: 22px;
 	}
-
-
 	.banner h1 {
 		font-size: 29px;
 	}
@@ -305,7 +302,8 @@
 	}
 	
 }
-@media only screen and (max-width : 415px) { /*iphone 6 plus */
+@media only screen and (max-width : 415px) {	
+
 	.banner h1 {
 		font-size: 25px;
 	}
@@ -322,7 +320,7 @@
 	padding-bottom: 15px;
 }
 	.type-wrap { 
-		font-size: 28px;
+		font-size: 18px;
 	}
 	.tagline li {
 		margin-bottom: 10px;
@@ -367,17 +365,17 @@
 		height: 330px;
 	}
 	.type-wrap {
-		font-size: 26px;
+		font-size: 20px;
 	}
 	.tagline ul li {
-		font-size: 22px;
+		font-size: 12px;
 	}
-	.tagline li {
-		display: block;
-		margin-bottom: 15px;
-	}
-
 	.banner h1 {
 		font-size: 23px;
+	}
+	a.reverse-button {
+		font-size: 12px;
+		padding: 8px;
+		line-height: 8px;
 	}
 }
