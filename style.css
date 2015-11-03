@@ -642,7 +642,7 @@ margin-bottom: -11px;
 width: 100%;
 height: auto;
 position: absolute;
-min-height: 180px;
+min-height: 550px;
 top: 0;
 z-index: 2;
 display: none
@@ -723,7 +723,7 @@ z-index: 1000
 .vertical-center a {
 	line-height: 30px;
 }
-.quote-panel h1 {
+.quote-panel-1 h1, .quote-panel-2 h1, .quote-panel-3 h1 {
 	padding-bottom: 20px;
 	font-family: 'raleway' sans-serif;
 	text-transform: uppercase;
@@ -731,7 +731,7 @@ z-index: 1000
 	font-weight: 900;
 	color: white;
 }
-.quote-panel .four {
+.quote-panel-1 .four, .quote-panel-2 .four, .quote-panel-3 .four {
 	margin-bottom: 30px;
 }
 blockquote {
@@ -750,10 +750,11 @@ blockquote:before {
 	content: open-quote;
 	  font-size: 100px;
 	  line-height: 0.1em;
-	  margin-right: 0.25em;
+	  margin-right: 0.15em;
 	  vertical-align: -0.4em;
 	  font-family: 'source sans pro';
 	  color: white;
+	  font-style: normal;
 
 }
 
@@ -761,10 +762,12 @@ blockquote:after {
 content: close-quote;
 	  font-size: 100px;
 	  line-height: 0.1em;
-	  margin-right: 0.25em;
+	  margin-left: 0.15em;
 	  vertical-align: -0.4em;
 	  font-family: 'source sans pro';
 	  color: white;
+	  font-style: normal;
+
 
 
 }
