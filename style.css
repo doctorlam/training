@@ -629,8 +629,65 @@ a.reverse-button {
 	font-weight: 600;
 }
 
-.quote-panel {
+.cbp-qtrotator {
+width: 100%;
+min-height: 550px;
+position: relative;
+float: left;
+margin: 0;
+padding-top: 11px;
+margin-bottom: -11px;
+}
+.cbp-qtcontent {
+width: 100%;
+height: auto;
+position: absolute;
+min-height: 180px;
+top: 0;
+z-index: 2;
+display: none
+}
+.cbp-qtrotator .cbp-qtcontent.current {
+display: block
+}
+
+.cbp-qtprogress {
+position: absolute;
+background: #47a3da;
+height: 1px;
+width: 0%;
+z-index: 1000
+}
+
+.quote-panel-1 {
 	background: url('images/bottom-panel.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: #C0392B;
+	min-height: 550px;
+	text-align: center;
+	position: relative;
+	color: white;
+	margin-top: 10px;
+}
+.quote-panel-2 {
+	background: url('images/quote-panel2.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	background-color: #C0392B;
+	min-height: 550px;
+	text-align: center;
+	position: relative;
+	color: white;
+	margin-top: 10px;
+
+}
+.quote-panel-3 {
+	background: url('images/quote-panel3.jpg') no-repeat center center;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -1036,3 +1093,4 @@ figcaption {
 	padding-bottom: 10px;
 	color: #737373;
 }
+
