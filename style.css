@@ -385,7 +385,7 @@ nav a, nav a:visited {
 .homepage {
 	background-image:url('images/swirl_pattern_opaque.jpg') !important;
 	background-attachment: fixed;
-	padding: 40px 0 0px 0;
+	padding: 20px 0 0px 0;
 
 	}	
 .buttons {
@@ -395,7 +395,7 @@ nav a, nav a:visited {
 }
 .button {
   	display: block;
-  	font-family: 'raleway' sans-serif;
+  	font-family: 'raleway', sans-serif;
 	text-decoration: none;
 	color: #4D4D4D;
 	border: 1px gray solid;
@@ -710,7 +710,7 @@ z-index: 1000
 }
 .vertical-center h1 {
 	padding-bottom: 30px;
-	font-family: 'raleway' sans-serif;
+	font-family: 'raleway', sans-serif;
 	text-transform: uppercase;
 	font-size: 40px;
 	font-weight: 900;
@@ -725,7 +725,7 @@ z-index: 1000
 }
 .quote-panel-1 h1, .quote-panel-2 h1, .quote-panel-3 h1 {
 	padding-bottom: 20px;
-	font-family: 'raleway' sans-serif;
+	font-family: 'raleway', sans-serif;
 	text-transform: uppercase;
 	font-size: 45px;
 	font-weight: 900;
